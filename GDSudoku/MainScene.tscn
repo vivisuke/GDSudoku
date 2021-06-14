@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TitleBar.gd" type="Script" id=1]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="BG" type="ColorRect" parent="."]
+margin_right = 500.0
+margin_bottom = 800.0
+color = Color( 0.501961, 1, 0.501961, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TitleBar" type="ColorRect" parent="."]
+margin_right = 500.0
+margin_bottom = 50.0
+color = Color( 0.203922, 0.596078, 0.858824, 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
